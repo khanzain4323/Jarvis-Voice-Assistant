@@ -1,4 +1,4 @@
-# Jarvis Voice Assistant 🎙️
+# Jarvis Voice Assistant 
 
 A simple Python-based voice assistant (inspired by Alexa/Google Assistant) that listens for a wake word, understands voice commands, and can open websites, play music, or answer general questions using OpenAI's GPT model.
 
@@ -20,34 +20,33 @@ A simple Python-based voice assistant (inspired by Alexa/Google Assistant) that 
 ## Setup Instructions
 
 ### 1. Clone the repository
-\`\`\`bash
+bash
 git clone https://github.com/<your-username>/jarvis-voice-assistant.git
-cd jarvis-voice-assistant
-\`\`\`
+cd jarvis-voice-assistant.
 
 ### 2. Install dependencies
-\`\`\`bash
+bash
 pip install -r requirements.txt
-\`\`\`
+
 
 ### 3. Add your OpenAI API key
 Create a `.env` file in the root folder (this file is ignored by Git and never uploaded):
-\`\`\`
+
 OPENAI_API_KEY=your_actual_key_here
-\`\`\`
+
 
 Never hardcode your API key directly in `.py` files. Always use environment variables.
 
 ### 4. Run the assistant
-\`\`\`bash
+bash
 python main.py
-\`\`\`
+
 
 Say **"Jarvis"** to activate, then speak your command — e.g. "open YouTube", "play At peace", or ask it any question.
 
 ## Project Structure
 
-\`\`\`
+
 jarvis-voice-assistant/
 ├── main.py
 ├── musicLibrary.py
@@ -56,7 +55,7 @@ jarvis-voice-assistant/
 ├── .env.example
 ├── .gitignore
 └── README.md
-\`\`\`
+
 
 ## Security Note
 
